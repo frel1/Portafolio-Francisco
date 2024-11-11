@@ -1,19 +1,13 @@
 <script setup>
 import icono1 from '/src/assets/apartado.svg';
 import icono2 from '/src/assets/apartado.svg';
-import icono3 from '/src/assets/apartado.svg';
-import icono4 from '/src/assets/apartado.svg';
-import icono5 from '/src/assets/apartado.svg';
 
 import { ref } from 'vue';
 const titulo = 'Desarrollador Full Stack';
 const fecha = 'Desde Enero 2022 / Julio 2024';
 const experiencias = ref([
-    { id: 1, src: icono1, parrafo: 'Lideré un equipo de 5 desarrolladores en la creación de una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.' },
-    { id: 2, src: icono2, parrafo: 'Diseñé y desarrollé aplicaciones web utilizando Node.js, React y MongoDB, logrando reducir el tiempo de carga de las páginas en un 50%.' },
-    { id: 3, src: icono3, parrafo: 'Implementé soluciones de autenticación y autorización, mejorando la seguridad del sitio web y reduciendo los intentos de acceso no autorizado en un 20%.' },
-    { id: 4, src: icono4, parrafo: 'Colaboré con diseñadores de UX/UI para crear interfaces de usuario atractivas y fáciles de usar, aumentando la satisfacción del cliente en un 15%.' },
-    { id: 5, src: icono5, parrafo: 'Automaticé procesos de despliegue continuo utilizando Jenkins y Docker, reduciendo los tiempos de despliegue en un 40%.' },
+    { id: 1, src: icono1, parrafo: 'Actualmente, estoy en proceso de formación en programación, profundizando en los lenguajes de Python y Java, y aplico mi capacidad de adaptación y aprendizaje continuo para adquirir conocimientos técnicos que puedan contribuir a proyectos de desarrollo de software' },
+    { id: 2, src: icono2, parrafo: 'Durante mis experiencias previas en diversos rubros, desarrollé competencias clave como la resolución de problemas, atención al cliente y al detalle y trabajo en equipo' },
 ]);
 </script>
 
