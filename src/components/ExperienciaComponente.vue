@@ -3,8 +3,8 @@ import icono1 from '/src/assets/apartado.svg';
 import icono2 from '/src/assets/apartado.svg';
 
 import { ref } from 'vue';
-const titulo = 'Desarrollador Full Stack';
-const fecha = 'Desde Enero 2022 / Julio 2024';
+const titulo = 'Estudiante de Programación con orientación al Backend';
+const fecha = 'Enero de 2024 a la actualidad';
 const experiencias = ref([
     { id: 1, src: icono1, parrafo: 'Actualmente, estoy en proceso de formación en programación, profundizando en los lenguajes de Python y Java, y aplico mi capacidad de adaptación y aprendizaje continuo para adquirir conocimientos técnicos que puedan contribuir a proyectos de desarrollo de software' },
     { id: 2, src: icono2, parrafo: 'Durante mis experiencias previas en diversos rubros, desarrollé competencias clave como la resolución de problemas, atención al cliente y al detalle y trabajo en equipo' },
